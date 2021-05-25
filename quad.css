@@ -154,6 +154,31 @@ img {vertical-align: middle;}*/
     font-weight: 900;
     font-family: 'IBM Plex Sans', sans-serif;
   }
+    /*Bread*/
+    .first {
+        margin-top: 75px;
+        margin-left: 20px;
+        width: 40%;
+        float: left;
+      }
+    
+      .second {
+        margin-top: 75px;
+        margin-right: 20px;
+        width: 40%;
+        float: right;
+      }
+    
+    
+      .textsection {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: auto;
+        font-size: 8px;
+        margin-left: 5%;
+        margin-right: 12%;
+        margin-bottom: 20%;
+      }
 
   .main-form {
       display: none;
@@ -167,35 +192,78 @@ img {vertical-align: middle;}*/
     padding: 32px 20px;
   }
 
-  /*Bread*/
-  .first {
-    margin-top: 75px;
-    margin-left: 20px;
-    width: 40%;
-    float: left;
+  .form-group {
+    position: relative;
+    margin-bottom: 28px;
   }
 
-  .second {
-    margin-top: 75px;
-    margin-right: 20px;
-    width: 40%;
-    float: right;
+  .gt-input {
+    width: 400px;
+    height: 48px;
+    padding: 0 20px;
+    font-size: 20px;
+    border: 0;
   }
 
-
-  .textsection {
-    display: grid;
-    grid-template-columns: 60% 40%;
-    grid-template-rows: auto;
-    font-size: 8px;
-    margin-left: 5%;
-    margin-right: 12%;
-    margin-bottom: 20%;
+  .gt-text {
+    padding: 10px 20px;
+    height: 48px;
+    padding: 0 20px;
+    font-size: 20px;
+    border: 0;
   }
 
+  .gt-input:focus {
+    outline: none;
+  }
 
+  label {
+    position: absolute;
+    font-size: 18px;
+    color: #aaa;
+    transition: all .4s;
+    top: 24px;
+    transform: translateY(-50%);
+    margin-left: 24px;
+    cursor: text;
+    z-index: 1;
+  }
 
+  .gt-button {
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    border: 1.5px solid white;
+    color: white;
+    background: rgb(203, 60, 91);
+    transition: .4s;
+  }
 
+  .gt-button:hover {
+    background-color: rgb(203, 60, 91);
+    opacity: 75%;
+  }
+
+  .form-status {
+    padding: 8px;
+    text-align: center;
+    color: white;
+    margin-top: 8px;
+    margin-bottom: -24px;
+  }
+
+  .move-up {
+    margin-top: -32px;
+    margin-left: 0px;
+    font-size: 14px;
+    background: #ff0000;
+    border-radius: 8px 0;
+    color: white;
+    padding: 4px 8px;
+    min-width: 100px;
+  }
 
   @media only screen and (min-width: 1000px) {
     /*mobile*/
