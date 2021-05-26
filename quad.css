@@ -160,13 +160,12 @@ img {vertical-align: middle;}*/
 
   .main-form {
     background-color: #0353E9;
-    border-radius: 25px;
     z-index: 1;
     width: 500px;
-    height: 500px;
+    height: 700px;
     position: absolute;
-    top: 220px;
-    left: 100px;
+    top: 520px;
+    left: 600px;
     padding: 32px 20px;
   }
 
@@ -198,7 +197,8 @@ img {vertical-align: middle;}*/
   label {
     position: absolute;
     font-size: 18px;
-    color: #aaa;
+    font-family:'IBM Plex Sans', sans-serif;
+    color: rgb(97, 97, 97);
     transition: all .4s;
     top: 24px;
     transform: translateY(-50%);
@@ -207,20 +207,36 @@ img {vertical-align: middle;}*/
     z-index: 100;
   }
 
+  .form-text {
+    position: absolute;
+    left: 10px;
+    top: 310px;
+    padding-left: 50px;
+    padding-right: 60px;
+    font-size: 25px;
+    line-height: 30px;
+    opacity: 95%;
+    font-family:'IBM Plex Sans', sans-serif;
+    color: white;
+  }
+
   .gt-button {
     width: 200px;
     height: 60px;
+    position: absolute;
+    left: 160px;
+    top: 650px;
     font-size: 20px;
-    text-transform: uppercase;
+    text-transform: regular;
     letter-spacing: 4px;
     border: 1.5px solid white;
     color: white;
-    background: rgb(203, 60, 91);
+    background-color: #547ac0;
     transition: .4s;
   }
 
   .gt-button:hover {
-    background-color: rgb(203, 60, 91);
+    background-color: #547ac0;
     opacity: 75%;
   }
 
@@ -233,14 +249,12 @@ img {vertical-align: middle;}*/
   }
 
   .move-up {
-    margin-top: -32px;
-    margin-left: 0px;
+    margin-top: -15px;
+    margin-left: 350px;
     font-size: 14px;
-    background: #ff0000;
-    border-radius: 8px 0;
-    color: white;
+    background: #41b3ff;
     padding: 4px 8px;
-    min-width: 100px;
+    min-width: 200px;
   }
 
   @media only screen and (min-width: 1000px) {
