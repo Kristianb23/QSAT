@@ -225,7 +225,7 @@ img {vertical-align: middle;}*/
     left: 160px;
     top: 650px;
     font-size: 20px;
-    text-transform: regular;
+    text-transform: none;
     letter-spacing: 4px;
     border: 1.5px solid white;
     color: white;
@@ -435,7 +435,7 @@ img {vertical-align: middle;}*/
       left: 160px;
       top: 650px;
       font-size: 20px;
-      text-transform: regular;
+      text-transform: none;
       letter-spacing: 4px;
       border: 1.5px solid white;
       color: white;
