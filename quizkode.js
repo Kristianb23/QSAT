@@ -52,8 +52,8 @@ restart_quiz.onclick = ()=>{
     clearInterval(counterLine);
     startTimer(timeValue);
     startTimerLine(widthValue);
-    timeText.textContent = "Tid";
-    next_btn.classList.remove("show");
+    timeText.textContent = "Time";
+    next_btn.classList.remove("Show");
 }
 
 
@@ -75,8 +75,8 @@ next_btn.onclick = ()=>{
         clearInterval(counterLine);
         startTimer(timeValue);
         startTimerLine(widthValue);
-        timeText.textContent = "Tid";
-        next_btn.classList.remove("show");
+        timeText.textContent = "Time";
+        next_btn.classList.remove("Show");
     }else{
         clearInterval(counter);
         clearInterval(counterLine);
@@ -203,6 +203,6 @@ function startTimerLine(time){
 
 function queCounter(index){
 
-    let totalQueCounTag = '<span><p>'+ index +'</p> ud af <p>'+ questions.length +'</p> spørgsmål</span>';
+    let totalQueCounTag = '<span><p>'+ index +'</p> Out of <p>'+ questions.length +'</p> Question</span>';
     bottom_ques_counter.innerHTML = totalQueCounTag;
 }
