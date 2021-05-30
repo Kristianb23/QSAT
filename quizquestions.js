@@ -1,10 +1,10 @@
 let questions = [
     {
     numb: 1,
-    question: "when is tomorrow?",
-    answer: "tomorrow",
+    question: "In which view will you be able to see your data-sets?",
+    answer: "In the plot view",
     options: [
-      "tomorrow",
+      "In the plot view",
       "today",
       "today",
       "today"
@@ -12,43 +12,43 @@ let questions = [
   },
     {
     numb: 2,
-    question: "when is tomorrow?",
-    answer: "tomorrow",
+    question: "If you want to measure from 0° to 360° to find out what the antennas horizontal range is, what scan type would you use?",
+    answer: "A principal scan, with plane set on azimuth",
     options: [
       "tomorrow",
-      "today",
-      "today",
+      "A principal scan, with plane set on elevation",
+      "A principal scan, with plane set on azimuth",
       "today"
     ]
   },
     {
     numb: 3,
-    question: "when is tomorrow?",
-    answer: "tomorrow",
+    question: "if you want to measure from 0° to 60° to find out what the antennas vertical range is, what scan type would you use?",
+    answer: "A principal scan, with plane set on elevation",
     options: [
-      "tomorrow",
+      "A principal scan, with plane set on azimuth",
       "today",
       "today",
-      "today"
+      "A principal scan, with plane set on elevation"
     ]
   },
     {
     numb: 4,
-    question: "when is tomorrow?",
-    answer: "tomorrow",
+    question: "How do you get the cross polar data?",
+    answer: "By matching it with the co polar data.",
     options: [
       "tomorrow",
-      "today",
+      "By matching it with the co polar data.",
       "today",
       "today"
     ]
   },
     {
     numb: 5,
-    question: "when is tomorrow?",
-    answer: "tomorrow",
+    question: "Where is the speed between points decided?",
+    answer: "When exporting the flight",
     options: [
-      "tomorrow",
+      "When exporting the flight",
       "today",
       "today",
       "today"
